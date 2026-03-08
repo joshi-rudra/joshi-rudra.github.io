@@ -1,10 +1,383 @@
-<html>
-  <head>
-    <title>Coming Soon!</title>
-  </head>
-  <body>
-    <h1>Coming Soon!</h1>
-    <br>
-    <h6>Work in progress...</h6>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rudra Joshi — Agricultural Researcher</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ====== NAVIGATION ====== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <i class="fa-solid fa-leaf"></i> Rudra Joshi
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-overlay" id="navOverlay"></div>
+      <ul class="nav-links" id="navLinks">
+        <button class="nav-close" id="navClose" aria-label="Close navigation">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#expertise">Expertise</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ====== HERO SECTION ====== -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-subtitle">Agricultural Researcher &amp; Analyst</p>
+      <h1 class="hero-title">Rudra Joshi</h1>
+      <p class="hero-description">
+        Advancing sustainable agriculture through data-driven research, innovative
+        farming practices, and impactful policy recommendations.
+      </p>
+      <div class="hero-cta">
+        <a href="#publications" class="btn btn-primary">View Publications</a>
+        <a href="#about" class="btn btn-outline">Learn More</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <a href="#about"><i class="fa-solid fa-chevron-down"></i></a>
+    </div>
+  </section>
+
+  <!-- ====== ABOUT SECTION ====== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag"><i class="fa-solid fa-seedling"></i> Introduction</p>
+        <h2 class="section-title">About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-image">
+          <div class="about-image-placeholder">
+            <i class="fa-solid fa-user"></i>
+            <p>Your Photo</p>
+          </div>
+        </div>
+        <div class="about-text">
+          <p class="about-lead">
+            I'm an agricultural researcher passionate about solving real-world
+            farming challenges through rigorous scientific inquiry and collaborative
+            innovation.
+          </p>
+          <p>
+            With a strong foundation in agricultural sciences, I focus on crop
+            management, soil health, sustainable farming systems, and rural
+            development. My work spans from field-level experiments to synthesizing
+            policy-relevant reports that bridge the gap between research and
+            practice.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number">10+</span>
+              <span class="stat-label">Research Papers</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">5+</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">15+</span>
+              <span class="stat-label">Field Studies</span>
+            </div>
+          </div>
+          <div class="about-details">
+            <div class="detail-item">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <div>
+                <strong>Education</strong>
+                <p>M.Sc. in Agricultural Sciences</p>
+              </div>
+            </div>
+            <div class="detail-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <strong>Location</strong>
+                <p>India</p>
+              </div>
+            </div>
+            <div class="detail-item">
+              <i class="fa-solid fa-flask"></i>
+              <div>
+                <strong>Focus</strong>
+                <p>Sustainable Agriculture &amp; Crop Science</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== EXPERTISE SECTION ====== -->
+  <section class="section expertise" id="expertise">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag"><i class="fa-solid fa-wheat-awn"></i> What I Do</p>
+        <h2 class="section-title">Areas of Expertise</h2>
+      </div>
+      <div class="expertise-grid">
+        <div class="expertise-card">
+          <div class="expertise-icon"><i class="fa-solid fa-plant-wilt"></i></div>
+          <h3>Crop Science</h3>
+          <p>Research on crop varieties, yield optimization, and pest management strategies for improved productivity.</p>
+        </div>
+        <div class="expertise-card">
+          <div class="expertise-icon"><i class="fa-solid fa-mountain-sun"></i></div>
+          <h3>Soil Health</h3>
+          <p>Soil fertility assessment, nutrient management, and conservation practices for long-term agricultural sustainability.</p>
+        </div>
+        <div class="expertise-card">
+          <div class="expertise-icon"><i class="fa-solid fa-cloud-sun-rain"></i></div>
+          <h3>Climate Resilience</h3>
+          <p>Studying climate impacts on agriculture and developing adaptive farming techniques for changing weather patterns.</p>
+        </div>
+        <div class="expertise-card">
+          <div class="expertise-icon"><i class="fa-solid fa-chart-line"></i></div>
+          <h3>Agricultural Analytics</h3>
+          <p>Data-driven approaches to farming decisions, yield forecasting, and agricultural market trend analysis.</p>
+        </div>
+        <div class="expertise-card">
+          <div class="expertise-icon"><i class="fa-solid fa-recycle"></i></div>
+          <h3>Sustainable Practices</h3>
+          <p>Organic farming, integrated pest management, and eco-friendly agricultural systems research.</p>
+        </div>
+        <div class="expertise-card">
+          <div class="expertise-icon"><i class="fa-solid fa-file-lines"></i></div>
+          <h3>Policy &amp; Reports</h3>
+          <p>Translating research findings into actionable reports and policy recommendations for stakeholders.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== PUBLICATIONS SECTION ====== -->
+  <section class="section publications" id="publications">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag"><i class="fa-solid fa-book-open"></i> Research Work</p>
+        <h2 class="section-title">Publications &amp; Reports</h2>
+        <p class="section-subtitle">
+          A collection of my research papers, field reports, and analytical studies
+          in the agricultural domain. Click on any publication to view the full PDF.
+        </p>
+      </div>
+
+      <div class="publications-grid">
+
+        <!-- Publication Card 1 -->
+        <article class="pub-card">
+          <div class="pub-tag">Research Paper</div>
+          <h3 class="pub-title">Impact of Organic Fertilizers on Wheat Yield in Semi-Arid Regions</h3>
+          <p class="pub-body">
+            A comprehensive field study examining the effects of various organic
+            fertilizer compositions on wheat crop yield across three consecutive
+            growing seasons in semi-arid climatic conditions.
+          </p>
+          <div class="pub-meta">
+            <span><i class="fa-regular fa-calendar"></i> 2025</span>
+            <span><i class="fa-regular fa-file-pdf"></i> Research Paper</span>
+          </div>
+          <a href="reports/sample-report-1.pdf" class="pub-link" target="_blank" rel="noopener noreferrer">
+            <i class="fa-solid fa-file-pdf"></i> View Full Paper (PDF)
+          </a>
+        </article>
+
+        <!-- Publication Card 2 -->
+        <article class="pub-card">
+          <div class="pub-tag">Field Report</div>
+          <h3 class="pub-title">Soil Health Assessment of Agricultural Lands in Western India</h3>
+          <p class="pub-body">
+            A detailed analytical report on soil nutrient profiles, pH levels,
+            and microbial activity across 50+ farm sites, with actionable
+            recommendations for soil restoration.
+          </p>
+          <div class="pub-meta">
+            <span><i class="fa-regular fa-calendar"></i> 2024</span>
+            <span><i class="fa-regular fa-file-pdf"></i> Field Report</span>
+          </div>
+          <a href="reports/sample-report-2.pdf" class="pub-link" target="_blank" rel="noopener noreferrer">
+            <i class="fa-solid fa-file-pdf"></i> View Full Report (PDF)
+          </a>
+        </article>
+
+        <!-- Publication Card 3 -->
+        <article class="pub-card">
+          <div class="pub-tag">Analytical Study</div>
+          <h3 class="pub-title">Water-Efficient Irrigation Techniques for Smallholder Farmers</h3>
+          <p class="pub-body">
+            An evaluation of drip irrigation, sprinkler systems, and traditional
+            methods comparing water usage efficiency, crop health, and overall
+            cost-effectiveness for small-scale farming operations.
+          </p>
+          <div class="pub-meta">
+            <span><i class="fa-regular fa-calendar"></i> 2024</span>
+            <span><i class="fa-regular fa-file-pdf"></i> Analytical Study</span>
+          </div>
+          <a href="reports/sample-report-3.pdf" class="pub-link" target="_blank" rel="noopener noreferrer">
+            <i class="fa-solid fa-file-pdf"></i> View Full Study (PDF)
+          </a>
+        </article>
+
+        <!-- Publication Card 4 -->
+        <article class="pub-card">
+          <div class="pub-tag">Research Paper</div>
+          <h3 class="pub-title">Climate Change Adaptation Strategies in Indian Agriculture</h3>
+          <p class="pub-body">
+            Research examining how smallholder farmers in India are adapting to
+            shifting monsoon patterns, rising temperatures, and increased drought
+            frequency through indigenous and modern agricultural practices.
+          </p>
+          <div class="pub-meta">
+            <span><i class="fa-regular fa-calendar"></i> 2023</span>
+            <span><i class="fa-regular fa-file-pdf"></i> Research Paper</span>
+          </div>
+          <a href="reports/sample-report-4.pdf" class="pub-link" target="_blank" rel="noopener noreferrer">
+            <i class="fa-solid fa-file-pdf"></i> View Full Paper (PDF)
+          </a>
+        </article>
+
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- ====== CONTACT SECTION ====== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag"><i class="fa-solid fa-envelope"></i> Get in Touch</p>
+        <h2 class="section-title">Contact</h2>
+      </div>
+      <div class="contact-grid">
+        <a href="mailto:joshirudra421@gmail.com" class="contact-card">
+          <i class="fa-solid fa-envelope"></i>
+          <h3>Email</h3>
+          <p>joshirudra421@gmail.com</p>
+        </a>
+        <a href="tel:+918799378018" class="contact-card">
+          <i class="fa-solid fa-phone"></i>
+          <h3>Phone</h3>
+          <p>+91 8799378018</p>
+        </a>
+        <a href="https://linkedin.com/in/rudra-joshi-850302224" target="_blank" rel="noopener noreferrer" class="contact-card">
+          <i class="fa-brands fa-linkedin"></i>
+          <h3>LinkedIn</h3>
+          <p>linkedin.com/in/rudra-joshi-850302224</p>
+        </a>
+        <a href="https://researchgate.net/profile/" target="_blank" rel="noopener noreferrer" class="contact-card">
+          <i class="fa-brands fa-researchgate"></i>
+          <h3>ResearchGate</h3>
+          <p>researchgate.net/profile/</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <i class="fa-solid fa-leaf"></i> Rudra Joshi
+        </div>
+        <p>&copy; 2026 Rudra Joshi. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ====== BACK TO TOP ====== -->
+  <a href="#home" class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </a>
+
+  <script>
+    // Mobile Navigation Toggle
+    const navToggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    const navOverlay = document.getElementById('navOverlay');
+    function openNav() {
+      navLinks.classList.add('active');
+      navToggle.classList.add('active');
+      navOverlay.classList.add('active');
+    }
+    function closeNav() {
+      navLinks.classList.remove('active');
+      navToggle.classList.remove('active');
+      navOverlay.classList.remove('active');
+    }
+    navToggle.addEventListener('click', () => {
+      navLinks.classList.contains('active') ? closeNav() : openNav();
+    });
+    navOverlay.addEventListener('click', closeNav);
+    document.getElementById('navClose').addEventListener('click', closeNav);
+
+    // Close mobile nav on link click
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', closeNav);
+    });
+
+    // Navbar scroll effect
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+
+    // Back to top button visibility
+    const backToTop = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 600) {
+        backToTop.classList.add('visible');
+      } else {
+        backToTop.classList.remove('visible');
+      }
+    });
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    // Intersection Observer for section animations
+    const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+        }
+      });
+    }, observerOptions);
+
+    document.querySelectorAll('.section').forEach(section => {
+      observer.observe(section);
+    });
+  </script>
+
+</body>
 </html>
